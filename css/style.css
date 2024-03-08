@@ -1,6 +1,116 @@
 @import url(variables.css);
+@import url(https://db.onlinewebfonts.com/c/901497541657a2f24e42848bcf7fad52?family=Avenir+Heavy);
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.header{
+    /*background: red;*/
+    font-family: "Avenir Heavy";
+    padding: 80px;
+}
+
+.header h1{
+    font-size: 70px;
+}
+
+.main{
+    /*background: lightcoral;*/
+    display: flex;
+    padding: 20px;
+}
+
+.main__text{
+    /*background: yellow;*/
+    padding: 0px 75px;
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+}
+
+.main__text h1{
+    color: lightgray;
+    font-size: 40px;
+    font-family: sans-serif;
+    line-height: 70px;
+}
+
+.main__text p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.main__text2{
+    /*background: yellow;*/
+    padding: 0px 75px;
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+}
+
+.main__text2 h1{
+    color: lightgray;
+    font-size: 40px;
+    font-family: sans-serif;
+    line-height: 70px;
+}
+
+.main__text2 p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.main__text3{
+    /*background: yellow;*/
+    padding: 0px 87px;
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+}
+
+.main__text3 h1{
+    color: lightgray;
+    font-size: 40px;
+    font-family: sans-serif;
+    line-height: 70px;
+}
+
+.main__text3 p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.main__text4{
+    /*background: yellow;*/
+    padding: 0px 90px;
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+}
+
+.main__text4 h1{
+    color: lightgray;
+    font-size: 40px;
+    font-family: sans-serif;
+    line-height: 70px;
+}
+
+.main__text4 p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.main__imagenes{
+    /*background: red;*/
+    padding: 0px 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main__Img1, .main__Img2, .main__Img3, .main__Img4{
+    background: red;
 }
